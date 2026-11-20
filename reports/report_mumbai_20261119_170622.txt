@@ -1,0 +1,46 @@
+======================================================================
+ WEATHER FORECAST & ALERT AUDIT REPORT: MUMBAI (IN)
+ Generated At: 2026-11-19 17:06:22 | Data Source: Virtual Simulation Engine (Offline Synthetic)
+======================================================================
+
+📌 CURRENT OBSERVATION:
+  • Temperature:       28.2°C (Feels like: 34.6°C)
+  • Condition:         Thunderstorm - Severe tropical thunderstorm and heavy torrential downpour
+  • Humidity:          94%
+  • Wind Velocity:     48.0 km/h (WSW)
+  • Barometric Press.: 998 hPa
+  • Precipitation (1h):28.4 mm
+
+⚠️ ACTIVE WEATHER ALERTS:
+  [1] 💧 Excessive Humidity Alert: 94% (ADVISORY)
+      - Message: Relative humidity in Mumbai reached 94%, exceeding threshold of 85%.
+      - Rule:    Observed 94% vs Threshold >= 85%
+      - Advisory: High heat exhaustion risk indoors. Ensure adequate ventilation; monitor perishables for mold and moisture.
+
+  [2] 💨 Gale Force Wind Alert: 48.0 km/h (WARNING)
+      - Message: Strong wind velocity of 48.0 km/h detected in Mumbai (Threshold: >= 40.0 km/h).
+      - Rule:    Observed 48.0 km/h vs Threshold >= 40.0 km/h
+      - Advisory: Secure outdoor signage and loose objects. Construction cranes and high-profile freight transport should halt.
+
+  [3] ⛈️ Severe Storm Warning: Severe tropical thunderstorm and heavy torrential downpour (CRITICAL)
+      - Message: Violent storm conditions reported in Mumbai with intense precipitation (28.4 mm/hr).
+      - Rule:    Observed Severe tropical thunderstorm and heavy torrential downpour (28.4 mm/h) vs Threshold Severe Storm Pattern
+      - Advisory: Seek sturdy shelter immediately. Avoid waterlogged roadways and electrical installations. Event planners: Postpone outdoor functions.
+
+  [4] ⚠️ Heavy Rain Forecast Ahead (Day 1) (WARNING)
+      - Message: Forecast indicates 95% precipitation likelihood with Heavy monsoon downpours on Day 1.
+      - Rule:    Observed 95% chance vs Threshold >= 80% rain likelihood
+      - Advisory: Farmers: clear drainage channels. Municipal bodies: inspect stormwater drainage infrastructure.
+
+📅 5-DAY OUTLOOK SUMMARY:
+ Date   | Avg Temp   | Min / Max       | Rain Prob   | Condition
+--------+------------+-----------------+-------------+--------------
+ Day 1  | 28.0°C     | 26.0°C / 29.0°C | 95%         | Thunderstorm
+ Day 2  | 27.5°C     | 25.5°C / 28.8°C | 90%         | Heavy Rain
+ Day 3  | 28.5°C     | 26.0°C / 30.0°C | 75%         | Rain
+ Day 4  | 29.0°C     | 26.2°C / 31.0°C | 60%         | Light Rain
+ Day 5  | 30.5°C     | 26.8°C / 32.0°C | 40%         | Cloudy
+
+======================================================================
+ End of Automated Weather & Risk Assessment Report
+======================================================================

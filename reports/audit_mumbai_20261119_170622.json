@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "city": "Mumbai",
+    "country": "IN",
+    "source": "Virtual Simulation Engine (Offline Synthetic)",
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.8777
+    }
+  },
+  "current_weather": {
+    "timestamp": "2026-11-19 14:00:00",
+    "temperature": 28.2,
+    "feels_like": 34.6,
+    "temp_min": 26.5,
+    "temp_max": 29.5,
+    "humidity": 94,
+    "pressure": 998,
+    "wind_speed": 48.0,
+    "wind_direction": "WSW",
+    "weather_main": "Thunderstorm",
+    "weather_description": "Severe tropical thunderstorm and heavy torrential downpour",
+    "rain_1h": 28.4,
+    "cloudiness": 98,
+    "uv_index": 2.1
+  },
+  "forecast_outlook": [
+    {
+      "datetime": "Day 1",
+      "temp": 28.0,
+      "temp_min": 26.0,
+      "temp_max": 29.0,
+      "humidity": 95,
+      "rain_prob": 95,
+      "condition": "Thunderstorm",
+      "description": "Heavy monsoon downpours"
+    },
+    {
+      "datetime": "Day 2",
+      "temp": 27.5,
+      "temp_min": 25.5,
+      "temp_max": 28.8,
+      "humidity": 92,
+      "rain_prob": 90,
+      "condition": "Heavy Rain",
+      "description": "Continuous rainfall"
+    },
+    {
+      "datetime": "Day 3",
+      "temp": 28.5,
+      "temp_min": 26.0,
+      "temp_max": 30.0,
+      "humidity": 88,
+      "rain_prob": 75,
+      "condition": "Rain",
+      "description": "Scattered rain showers"
+    },
+    {
+      "datetime": "Day 4",
+      "temp": 29.0,
+      "temp_min": 26.2,
+      "temp_max": 31.0,
+      "humidity": 82,
+      "rain_prob": 60,
+      "condition": "Light Rain",
+      "description": "Passing showers"
+    },
+    {
+      "datetime": "Day 5",
+      "temp": 30.5,
+      "temp_min": 26.8,
+      "temp_max": 32.0,
+      "humidity": 78,
+      "rain_prob": 40,
+      "condition": "Cloudy",
+      "description": "Partly sunny with humidity"
+    }
+  ],
+  "active_alerts": [
+    {
+      "alert_id": "ALT-HUM-20261119170619",
+      "timestamp": "2026-11-19 17:06:19",
+      "severity": "ADVISORY",
+      "category": "HIGH_HUMIDITY",
+      "title": "\ud83d\udca7 Excessive Humidity Alert: 94%",
+      "message": "Relative humidity in Mumbai reached 94%, exceeding threshold of 85%.",
+      "observed_value": "94%",
+      "threshold_value": ">= 85%",
+      "action_advice": "High heat exhaustion risk indoors. Ensure adequate ventilation; monitor perishables for mold and moisture."
+    },
+    {
+      "alert_id": "ALT-WIND-20261119170619",
+      "timestamp": "2026-11-19 17:06:19",
+      "severity": "WARNING",
+      "category": "HIGH_WIND",
+      "title": "\ud83d\udca8 Gale Force Wind Alert: 48.0 km/h",
+      "message": "Strong wind velocity of 48.0 km/h detected in Mumbai (Threshold: >= 40.0 km/h).",
+      "observed_value": "48.0 km/h",
+      "threshold_value": ">= 40.0 km/h",
+      "action_advice": "Secure outdoor signage and loose objects. Construction cranes and high-profile freight transport should halt."
+    },
+    {
+      "alert_id": "ALT-STORM-20261119170619",
+      "timestamp": "2026-11-19 17:06:19",
+      "severity": "CRITICAL",
+      "category": "SEVERE_STORM",
+      "title": "\u26c8\ufe0f Severe Storm Warning: Severe tropical thunderstorm and heavy torrential downpour",
+      "message": "Violent storm conditions reported in Mumbai with intense precipitation (28.4 mm/hr).",
+      "observed_value": "Severe tropical thunderstorm and heavy torrential downpour (28.4 mm/h)",
+      "threshold_value": "Severe Storm Pattern",
+      "action_advice": "Seek sturdy shelter immediately. Avoid waterlogged roadways and electrical installations. Event planners: Postpone outdoor functions."
+    },
+    {
+      "alert_id": "ALT-FC-RAIN-20261119170619",
+      "timestamp": "2026-11-19 17:06:19",
+      "severity": "WARNING",
+      "category": "FORECAST_RAIN",
+      "title": "\u26a0\ufe0f Heavy Rain Forecast Ahead (Day 1)",
+      "message": "Forecast indicates 95% precipitation likelihood with Heavy monsoon downpours on Day 1.",
+      "observed_value": "95% chance",
+      "threshold_value": ">= 80% rain likelihood",
+      "action_advice": "Farmers: clear drainage channels. Municipal bodies: inspect stormwater drainage infrastructure."
+    }
+  ],
+  "generated_at": "2026-11-19 17:06:22"
+}

@@ -1,0 +1,41 @@
+======================================================================
+ WEATHER FORECAST & ALERT AUDIT REPORT: LONDON (GB)
+ Generated At: 2026-11-19 16:29:37 | Data Source: Open-Meteo Public API (Live, No Key)
+======================================================================
+
+📌 CURRENT OBSERVATION:
+  • Temperature:       7.7°C (Feels like: 7.7°C)
+  • Condition:         Overcast - Overcast sky
+  • Humidity:          93%
+  • Wind Velocity:     7.2 km/h (259°)
+  • Barometric Press.: 1013.2 hPa
+  • Precipitation (1h):2.9 mm
+
+⚠️ ACTIVE WEATHER ALERTS:
+  [1] 💧 Excessive Humidity Alert: 93% (ADVISORY)
+      - Message: Relative humidity in London reached 93%, exceeding threshold of 85.0%.
+      - Rule:    Observed 93% vs Threshold >= 85.0%
+      - Advisory: High heat exhaustion risk indoors. Ensure adequate ventilation; monitor perishables for mold and moisture.
+
+  [2] 🌧️ Precipitation Alert: Overcast sky (ADVISORY)
+      - Message: Active rain detected in London. Precipitation rate: 2.9 mm/h.
+      - Rule:    Observed 2.9 mm/h vs Threshold Active Rainfall
+      - Advisory: Carry rain gear. Logistics: anticipate roadway delivery delays and adjust travel speed.
+
+  [3] ⚠️ Heavy Rain Forecast Ahead (2026-11-19) (WARNING)
+      - Message: Forecast indicates 100% precipitation likelihood with Moderate rain on 2026-11-19.
+      - Rule:    Observed 100% chance vs Threshold >= 80% rain likelihood
+      - Advisory: Farmers: clear drainage channels. Municipal bodies: inspect stormwater drainage infrastructure.
+
+📅 5-DAY OUTLOOK SUMMARY:
+ Date       | Avg Temp   | Min / Max     | Rain Prob   | Condition
+------------+------------+---------------+-------------+-------------
+ 2026-11-19 | 8.0°C      | 6.6°C / 9.4°C | 100%        | Rain
+ 2026-11-20 | 7.8°C      | 6.2°C / 9.5°C | 10%         | Drizzle
+ 2026-11-21 | 6.9°C      | 5.9°C / 7.9°C | 4%          | Overcast
+ 2026-11-22 | 7.3°C      | 5.8°C / 8.9°C | 29%         | Overcast
+ 2026-11-23 | 7.5°C      | 5.0°C / 9.9°C | 12%         | Drizzle
+
+======================================================================
+ End of Automated Weather & Risk Assessment Report
+======================================================================

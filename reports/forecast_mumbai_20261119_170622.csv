@@ -1,0 +1,6 @@
+Date/Slot,Temp (°C),Min Temp (°C),Max Temp (°C),Humidity (%),Rain Prob (%),Condition,Description
+Day 1,28.0,26.0,29.0,95,95,Thunderstorm,Heavy monsoon downpours
+Day 2,27.5,25.5,28.8,92,90,Heavy Rain,Continuous rainfall
+Day 3,28.5,26.0,30.0,88,75,Rain,Scattered rain showers
+Day 4,29.0,26.2,31.0,82,60,Light Rain,Passing showers
+Day 5,30.5,26.8,32.0,78,40,Cloudy,Partly sunny with humidity

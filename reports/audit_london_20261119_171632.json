@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "city": "London",
+    "country": "GB",
+    "source": "Open-Meteo Public API (Live, No Key)",
+    "coordinates": {
+      "lat": 51.50853,
+      "lon": -0.12574
+    }
+  },
+  "current_weather": {
+    "timestamp": "2026-11-19T11:45",
+    "temperature": 8.1,
+    "feels_like": 8.1,
+    "temp_min": 6.5,
+    "temp_max": 9.4,
+    "humidity": 93,
+    "pressure": 1013.2,
+    "wind_speed": 7.6,
+    "wind_direction": "268\u00b0",
+    "weather_main": "Overcast",
+    "weather_description": "Overcast sky",
+    "rain_1h": 2.9,
+    "cloudiness": 10,
+    "uv_index": 5.0
+  },
+  "forecast_outlook": [
+    {
+      "datetime": "2026-11-19",
+      "temp": 8.0,
+      "temp_min": 6.5,
+      "temp_max": 9.4,
+      "humidity": 65,
+      "rain_prob": 100,
+      "condition": "Rain",
+      "description": "Moderate rain"
+    },
+    {
+      "datetime": "2026-11-20",
+      "temp": 7.8,
+      "temp_min": 6.2,
+      "temp_max": 9.5,
+      "humidity": 65,
+      "rain_prob": 27,
+      "condition": "Drizzle",
+      "description": "Light drizzle"
+    },
+    {
+      "datetime": "2026-11-21",
+      "temp": 6.9,
+      "temp_min": 5.9,
+      "temp_max": 7.9,
+      "humidity": 65,
+      "rain_prob": 0,
+      "condition": "Overcast",
+      "description": "Overcast sky"
+    },
+    {
+      "datetime": "2026-11-22",
+      "temp": 7.3,
+      "temp_min": 5.8,
+      "temp_max": 8.9,
+      "humidity": 65,
+      "rain_prob": 33,
+      "condition": "Overcast",
+      "description": "Overcast sky"
+    },
+    {
+      "datetime": "2026-11-23",
+      "temp": 7.5,
+      "temp_min": 5.0,
+      "temp_max": 9.9,
+      "humidity": 65,
+      "rain_prob": 10,
+      "condition": "Drizzle",
+      "description": "Light drizzle"
+    }
+  ],
+  "active_alerts": [
+    {
+      "alert_id": "ALT-HUM-20261119171629",
+      "timestamp": "2026-11-19 17:16:29",
+      "severity": "ADVISORY",
+      "category": "HIGH_HUMIDITY",
+      "title": "\ud83d\udca7 Excessive Humidity Alert: 93%",
+      "message": "Relative humidity in London reached 93%, exceeding threshold of 85%.",
+      "observed_value": "93%",
+      "threshold_value": ">= 85%",
+      "action_advice": "High heat exhaustion risk indoors. Ensure adequate ventilation; monitor perishables for mold and moisture."
+    },
+    {
+      "alert_id": "ALT-RAIN-20261119171629",
+      "timestamp": "2026-11-19 17:16:29",
+      "severity": "ADVISORY",
+      "category": "RAIN_WARNING",
+      "title": "\ud83c\udf27\ufe0f Precipitation Alert: Overcast sky",
+      "message": "Active rain detected in London. Precipitation rate: 2.9 mm/h.",
+      "observed_value": "2.9 mm/h",
+      "threshold_value": "Active Rainfall",
+      "action_advice": "Carry rain gear. Logistics: anticipate roadway delivery delays and adjust travel speed."
+    },
+    {
+      "alert_id": "ALT-FC-RAIN-20261119171629",
+      "timestamp": "2026-11-19 17:16:29",
+      "severity": "WARNING",
+      "category": "FORECAST_RAIN",
+      "title": "\u26a0\ufe0f Heavy Rain Forecast Ahead (2026-11-19)",
+      "message": "Forecast indicates 100% precipitation likelihood with Moderate rain on 2026-11-19.",
+      "observed_value": "100% chance",
+      "threshold_value": ">= 80% rain likelihood",
+      "action_advice": "Farmers: clear drainage channels. Municipal bodies: inspect stormwater drainage infrastructure."
+    }
+  ],
+  "generated_at": "2026-11-19 17:16:32"
+}
